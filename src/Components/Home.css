@@ -1,0 +1,23 @@
+    .background-div {
+        background-image: url('../img/homecover.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    
+    .h2-text {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    
+    .welcome-text {
+        transition: transform 0.2s ease-in-out;
+    }
+    
+    .welcome-text:hover {
+        transform: scale(1.1);
+    }

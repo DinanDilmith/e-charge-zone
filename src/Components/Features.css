@@ -1,0 +1,12 @@
+.img-features {
+    height: 250px;
+    width: 250px;
+}
+
+.feature-box {
+    transition: transform 0.1s ease-in-out;
+}
+
+.feature-box:hover {
+    transform: scale(1.1);
+}

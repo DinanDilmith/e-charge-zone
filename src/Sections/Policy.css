@@ -1,0 +1,12 @@
+.div-policy {
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.div-policy p {
+    margin-left: 40px;
+    margin-right: 40px;
+}

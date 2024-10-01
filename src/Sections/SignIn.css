@@ -1,0 +1,14 @@
+        .div-sign {
+            background-image: url('../img/sign.jpg');
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        .form-style {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 25px;
+            border-radius: 15px;
+            max-width: 100%;
+        }
