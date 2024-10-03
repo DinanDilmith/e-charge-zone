@@ -6,15 +6,27 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./SignIn.css";
 import Footer from "../Components/Footer";
+import { useNavigate } from "react-router-dom";
 
 export default function SignIn() {
+
+  const navigate = useNavigate();
+
+  const handleLogin = (e) => {
+    e.preventDefault(); 
+
+    //enter login validations here
+    
+    navigate("/dashboard");
+  };
+
   return (
     <div>
       <div className="div-sign">
         <Row className="text-center text-white d-flex justify-content-center align-items-center min-vh-100">
           <Col xs={12} lg={5}>
             <Container>
-              <Form className="form-style my-5">
+              <Form className="form-style my-5" onSubmit={handleLogin}>
                 <h1 className="display-6 mb-4">Member Login </h1>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                   <Form.Label>Email address</Form.Label>
