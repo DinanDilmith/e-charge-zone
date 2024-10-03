@@ -1,0 +1,14 @@
+.rounded-table {
+    border-radius: 15px;
+    /* Adjust value for how rounded you want it */
+    overflow: hidden;
+    /* Ensures borders are properly applied on rounded edges */
+    border: 1px solid #ffffff;
+    /* Optional: Add a border to see the rounded edges more clearly */
+    margin-bottom: 3em;
+}
+
+.rounded-table thead th {
+    background-color: #a7d5ff;
+    /* Optional: Apply a background color to distinguish the header */
+}
